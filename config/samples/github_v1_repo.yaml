@@ -1,0 +1,12 @@
+apiVersion: github.sachinmaharana.com/v1
+kind: Repo
+metadata:
+  name: operator-two
+spec:
+  organization: SachinMaharana
+  description: Sample repository created with the Github Operator
+  homepage: SachinMaharana/repository-sample
+  options:
+    private: true
+    issues: true
+    projects: true

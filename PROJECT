@@ -1,0 +1,7 @@
+domain: sachinmaharana.com
+repo: github.com/sachinmaharana/github-operator
+resources:
+- group: github
+  kind: Repo
+  version: v1
+version: "2"
